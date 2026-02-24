@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('octofit_tracker.api_urls')),
+    path('api/', include('octofit_tracker.api_urls')),
 ]
