@@ -1,0 +1,150 @@
+
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+/* Navbar custom colors */
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+/* Headings */
+h1, h2, h3, .card-title {
+  color: #3a86ff;
+  font-weight: 700;
+}
+.card-title.text-success { color: #43aa8b; }
+.card-title.text-info { color: #4361ee; }
+.card-title.text-secondary { color: #22223b; }
+.card-title.text-warning { color: #ffbe0b; }
+
+/* Table styling */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.04);
+}
+.table thead {
+  background: #e0e7ff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f1f3fa;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #3a86ff;
+}
+
+/* Buttons */
+.btn-primary, .btn-outline-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  border: none;
+  color: #fff;
+}
+.btn-outline-primary {
+  background: transparent;
+  color: #3a86ff;
+  border: 2px solid #3a86ff;
+}
+.btn-outline-primary:hover {
+  background: #3a86ff;
+  color: #fff;
+}
+.btn-outline-success {
+  color: #43aa8b;
+  border: 2px solid #43aa8b;
+}
+.btn-outline-success:hover {
+  background: #43aa8b;
+  color: #fff;
+}
+.btn-outline-info {
+  color: #4361ee;
+  border: 2px solid #4361ee;
+}
+.btn-outline-info:hover {
+  background: #4361ee;
+  color: #fff;
+}
+.btn-outline-secondary {
+  color: #22223b;
+  border: 2px solid #22223b;
+}
+.btn-outline-secondary:hover {
+  background: #22223b;
+  color: #fff;
+}
+.btn-outline-warning {
+  color: #ffbe0b;
+  border: 2px solid #ffbe0b;
+}
+.btn-outline-warning:hover {
+  background: #ffbe0b;
+  color: #fff;
+}
+
+/* Card styling */
+.card {
+  border-radius: 12px;
+  border: none;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(58,134,255,0.08);
+}
+
+/* Links */
+a, .App-link {
+  color: #3a86ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ffbe0b;
+}
+
+/* Alerts */
+.alert-info {
+  background: #e0e7ff;
+  color: #3a86ff;
+  border: none;
+}
+
+/* Custom modal styling (if needed) */
+.modal-content {
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(58,134,255,0.12);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
